@@ -1,4 +1,4 @@
-# My English - French - Spanish Traduction Tool Application (with vozalisation) for my Galaxy S3 Phone
+# My English - French - Spanish Traduction Application (with vozalisation) for my Galaxy S3 Phone
 
 
 
