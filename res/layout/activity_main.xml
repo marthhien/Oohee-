@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+	android:background="#FFFFFF">
+	
+      <TableRow
+	android:id="@+id/widgetnom"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="#7FFF00"
+	android:orientation="horizontal">
+ 
+
+    <ImageButton 
+        android:id="@+id/frButton" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:onClick="StartFrench"
+        android:text="Français/ French / francés"
+        android:layout_weight="33"
+        android:src="@drawable/french" 
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"               
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"/> 
+        
+   <ImageButton 
+        android:id="@+id/enButton" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:onClick="StartEnglish"
+        android:text="English / Anglais / Inglés"
+        android:layout_weight="33"
+        android:src="@drawable/english"
+           android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"             
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent" /> 
+        
+   <ImageButton 
+        android:id="@+id/spButton" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:onClick="StartSpanish"
+         android:text="Español / Espagnol / Spanish"
+        android:layout_weight="33"
+       android:src="@drawable/spanish"
+          android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"                
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent" /> 
+
+ 
+ 
+ 
+</TableRow>
+                 <ExpandableListView
+                android:id="@+id/lvExp"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                 android:layout_weight="30"/>   
+                 
+   </TableLayout>
+

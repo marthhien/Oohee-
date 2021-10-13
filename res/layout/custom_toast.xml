@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:id="@+id/custom_toast_layout_id"
+    android:orientation="horizontal" android:padding="10dp"
+    android:layout_height="wrap_content" android:background="#7FFF00">
+      <LinearLayout android:layout_width="wrap_content"
+        android:id="@+id/linearLayout1" android:orientation="vertical"
+        android:layout_height="wrap_content" android:paddingLeft="15dp">
+        
+          <ImageView
+        android:id="@+id/frImg" 
+        android:layout_width="50dp" 
+        android:layout_height="30dp"
+        android:text="Français/ French / francés"
+        android:src="@drawable/french" 
+        android:adjustViewBounds="true"            
+        android:background="@android:color/transparent"/>
+              
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView1"
+            android:layout_width="wrap_content" android:textColor="#000000"
+            android:textSize="20dp" android:text="Texte1"></TextView>
+
+                 <ImageView
+        android:id="@+id/EnImg" 
+        android:layout_width="50dp" 
+        android:layout_height="30dp"
+      android:text="English / Anglais / Inglés"
+        android:src="@drawable/english"
+        android:adjustViewBounds="true"            
+        android:background="@android:color/transparent"/>
+        
+                 
+         <TextView android:layout_height="wrap_content" android:id="@+id/textView2"
+            android:layout_width="wrap_content" android:textColor="#000000"
+            android:textSize="20dp" android:text="Texte2"></TextView>
+
+                  <ImageView
+        android:id="@+id/SpImg" 
+          android:layout_width="50dp" 
+        android:layout_height="30dp"
+          android:text="Español / Espagnol / Spanish"
+        android:src="@drawable/spanish"
+        android:adjustViewBounds="true"             
+        android:background="@android:color/transparent"/>
+         
+                  
+            <TextView android:layout_height="wrap_content" android:id="@+id/textView3"
+            android:layout_width="wrap_content" android:textColor="#000000"
+            android:textSize="20dp" android:text="Texte3"></TextView>
+            
+     </LinearLayout>
+ 
+</LinearLayout>
